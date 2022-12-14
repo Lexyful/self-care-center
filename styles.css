@@ -10,5 +10,41 @@ black - #000000; */
     background-color: #78a7c6;
 } */
 body {
+    text-align: center;
     background-image: linear-gradient(to right, #f7e4bf, #78a7c6,  #134d71,  #ffffff);
   }
+
+  h2 {
+    margin-top: 50px;
+
+  }
+
+    .box{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        border-radius: 25px;
+        height: 100px;
+        width: 500px;
+        background-color:  #ffffff;
+      }
+
+      .box2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        border-radius: 25px;
+        height: 100px;
+        width: 500px;
+        background-color:  #ffffff;
+
+      }
+  
+
+/* 
+      border: 2px solid #444957;
+      border-radius: 10px;
+      width: 25%;
+      margin: 40px auto;
+      padding-bottom: 40px;
+      background-color: #a986bc */
