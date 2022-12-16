@@ -10,7 +10,9 @@ black - #000000; */
     background-color: #78a7c6;
 } */
 HTML,body {
-  
+
+  display: flex;
+  justify-content: center;
      height : 100%;
     text-align: center;
     background-image: linear-gradient(to bottom, #134d71, #78a7c6, #f7e4bf, #ffffff );
@@ -41,6 +43,8 @@ HTML,body {
       }
 
       .box2{
+        display: flex;
+        justify-content: center;
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
@@ -50,22 +54,9 @@ HTML,body {
         background-color:  #ffffff;
       
       }
-      /* label {
-        color: #000000;
-        font-size: 15px;
-        font-family: Quicksand;
-        margin-right: 30px;
-        margin-left: 50px;
-        line-height: 10px;
-        justify-content:space-between;
-        
-        display: flex;
-     } */
 
       button {
-        /* width: 10px;
-        height: 30px;
-        display: flex; */
+       
           font-size: 25px;
           padding: 3px;
           background-color: #0b0762;
@@ -99,23 +90,10 @@ HTML,body {
         
       }
 
-      .radio1:hover{
-        background-color: #EBC3A8;
-
-      }
-
-      .radio2:hover{
-        background-color: #EBC3A8;
-
+  
+      .hidden{
+        display: none;
       }
 
      
   
-
-/* 
-      border: 2px solid #444957;
-      border-radius: 10px;
-      width: 25%;
-      margin: 40px auto;
-      padding-bottom: 40px;
-      background-color: #a986bc */
