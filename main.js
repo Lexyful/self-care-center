@@ -45,10 +45,11 @@ function getRandomIndex(array) {
   }
 
 function addMessage() {
+    event.preventDefault();
     console.log('here')
     icon.classList.add("hidden")
     if (radioButton1.checked = true) {
-        sectionMessage.innerText=  affirmations[getRandomIndex(affirmations)]
+        sectionMessage.innerText= affirmations[getRandomIndex(affirmations)]
         console.log('radio1', sectionMessage.innerText)
    } else if (radioButton2.checked = true) {
     sectionMessage.innerText = mantras[getRandomIndex(mantras)]
