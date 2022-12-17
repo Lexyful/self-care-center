@@ -45,8 +45,8 @@ HTML,body {
       .box2{
         display: flex;
         justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+        flex-direction: column;
+        align-items: center;
         margin-top: 100px;
         border-radius: 25px;
         height: 130px;
@@ -55,7 +55,7 @@ HTML,body {
       
       }
 
-      button {
+      .button {
        
           font-size: 25px;
           padding: 3px;
@@ -63,6 +63,23 @@ HTML,body {
           border-radius: 3px;
           border: none;
           margin-top: 25px;
+          
+      }
+
+      .favorite-button {
+        height: 25px;
+        width: 140px;
+        margin-top: 20px;
+        margin-bottom: 20x;
+      
+      }
+
+      .view-favorite-button {
+        height: 25px;
+        width: 140px;
+        margin-top: 20px;
+        margin-bottom: 20x;
+
       }
 
       .icon {
