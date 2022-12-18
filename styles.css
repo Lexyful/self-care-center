@@ -55,6 +55,19 @@ HTML,body {
       
       }
 
+      .box3 {
+        display: flex;
+        flex-direction: column;
+        word-spacing: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border-radius: 25px;
+        height: 400px;
+        width: 400px;
+        background-color:  #ffffff;
+      }
+
       .button {
        
           font-size: 25px;
@@ -63,6 +76,8 @@ HTML,body {
           border-radius: 3px;
           border: none;
           margin-top: 25px;
+           margin-left: auto;
+          margin-right: auto;
           
       }
 
@@ -79,6 +94,16 @@ HTML,body {
         width: 140px;
         margin-top: 20px;
         margin-bottom: 20x;
+
+      }
+      
+      .home-button {
+        height: 25px;
+        width: 140px;
+        
+        background-color: #0b0762;
+        margin-left: auto;
+        margin-right: auto;
 
       }
 
