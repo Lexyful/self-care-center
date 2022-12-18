@@ -37,10 +37,13 @@
         var buttonAddMessage = document.querySelector(".button")
         var buttonFavoriteMessage = document.querySelector("#favoriteMessage")
         var buttonViewFavoriteMessage = document.querySelector("#viewFavoriteMessageBtn")
+        var buttonHome = document.querySelector(".home-button")
         var sectionMessage = document.querySelector(".uplifting-message")
         var icon = document.querySelector(".icon")
         var viewHome = document.querySelector(".home-view")
         var viewFavoritesSection = document.querySelector(".saved-messages-section")
+        var viewFavoriteList = document.querySelector(".list")
+        var box3 = document.querySelector(".box3")
         var viewFavoritedMessages = []
         
 
@@ -48,6 +51,7 @@
             buttonAddMessage.addEventListener('click', addMessage);
             buttonFavoriteMessage.addEventListener('click', favoriteMessage)
             buttonViewFavoriteMessage.addEventListener('click', displayFavoriteMessages)
+            buttonHome.addEventListener('click', displayHome)
 
 
         function getRandomIndex(array) {
@@ -86,11 +90,25 @@
         event.preventDefault();
         viewHome.classList.add("hidden");
         viewFavoritesSection.classList.remove("hidden") 
-        list.innerHTML = ''
+        box3.classList.remove("hidden")
+        buttonHome.classList.remove("hidden")
+        viewFavoriteList.innerHTML = ''
         for(var i = 0; i < viewFavoritedMessages.length; i++) {
-            list.innerHTML += `<p>${viewFavoritedMessages[i]}<p>` 
+            viewFavoriteList.innerHTML += `${viewFavoritedMessages[i]}` 
             console.log('here')
         }
+    }
+
+    function displayHome() {
+      viewHome.classList.remove("hidden")
+      viewFavoritesSection.classList.add("hidden") 
+      box3.classList.add("hidden")
+      buttonHome.classList.add("hidden") 
+      icon.classList.remove("hidden")
+            sectionMessage.classList.add("hidden")
+            viewFavoritesSection.classList.remove("hidden") 
+            buttonFavoriteMessage.classList.add("hidden")
+            buttonViewFavoriteMessage.classList.add("hidden")
     }
   
 
