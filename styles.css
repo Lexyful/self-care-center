@@ -55,6 +55,12 @@ HTML,body {
       
       }
 
+      .little-box2 {
+        display: flex;
+        flex-direction:row;
+
+      }
+
       .box3 {
         display: flex;
         flex-direction: column;
@@ -100,7 +106,15 @@ HTML,body {
       .home-button {
         height: 25px;
         width: 140px;
-        
+        background-color: #0b0762;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+
+      .delete-button {
+        height: 25px;
+        width: 140px;
         background-color: #0b0762;
         margin-left: auto;
         margin-right: auto;

@@ -1,51 +1,30 @@
-# Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
 
 # Self-Care Center 
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+In this project, I built an app that helps a user select their favorite mantras and affirmations that are provided by the Self Care Center. It solves the problem of a user not remembering which ones were their favorites. They can click the heart button that will store the ones that they like the best.
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
+By forking the repo in git hub and creating a directory for the repo then they can clone it in their terminal commanding : git clone then opening it up in their text editor.
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
+
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+We are in week three. I'd say this project took fifteen to twenty hours.
 
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
+Just me.
 
 ### Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
+The goal was to get comfortable writing JS, CSS and HTML and get experience using them to build an app.
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+I figured out how to use the event.target method so that the user can tell the computer exactly what they want to keep or delete. Another win was seeing how my HTML formatting was a huge helper because of it's flexability I was able to make my commands in java script much more specific by pulling classes and id's one by one.
