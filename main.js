@@ -52,6 +52,7 @@
             buttonFavoriteMessage.addEventListener('click', favoriteMessage)
             buttonViewFavoriteMessage.addEventListener('click', displayFavoriteMessages)
             buttonHome.addEventListener('click', displayHome)
+            box3.addEventListener('dblclick', deleteMessage)
 
 
         function getRandomIndex(array) {
@@ -82,7 +83,7 @@
         event.preventDefault();
         if (!viewFavoritedMessages.includes(sectionMessage.innerText)) {
          viewFavoritedMessages.push(sectionMessage.innerText)
-         console.log(viewFavoritedMessages[i])
+       
        }
     } 
 
@@ -94,10 +95,23 @@
         buttonHome.classList.remove("hidden")
         viewFavoriteList.innerHTML = ''
         for(var i = 0; i < viewFavoritedMessages.length; i++) {
-            viewFavoriteList.innerHTML += `${viewFavoritedMessages[i]}` 
+            viewFavoriteList.innerHTML += `<li>${viewFavoritedMessages[i]}</li>` 
             console.log('here')
         }
     }
+
+    function deleteMessage() {
+        var deletedMessages = event.target
+        console.log(deletedMessages.innerText)
+        for (var i = 0; i < viewFavoritedMessages.length; i++) {
+        if(deletedMessages.innerText === viewFavoritedMessages[i]) {
+            viewFavoritedMessages.splice(i, 1)
+            displayFavoriteMessages()
+        }
+     } 
+    }
+ 
+    
 
     function displayHome() {
       viewHome.classList.remove("hidden")
