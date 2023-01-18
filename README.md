@@ -6,8 +6,7 @@
 In this project, I built an app that helps a user select their favorite mantras and affirmations that are provided by the Self Care Center. It solves the problem of a user not remembering which ones were their favorites. They can click the heart button that will store the ones that they like the best.
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
-By forking the repo in git hub and creating a directory for the repo then they can clone it in their terminal commanding : git clone then opening it up in their text editor.
+[//]: <>(https://lexyful.github.io/self-care-center/)
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
